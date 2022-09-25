@@ -715,12 +715,12 @@ p {
     justify-content: space-between;
 }
 
-h2 {
+p.h2 {
     font-size: 26px;
     line-height: 1.4em;
 }
 
-h3 {
+p.h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -1002,10 +1002,6 @@ h4 {
         margin-left: 10px;
     }
 
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
 
     .bloc-xxl,
     .bloc-xl,
@@ -1069,7 +1065,7 @@ h4 {
     }
 }
 
-.quote-container>span {
+.quote-container>cite {
     font-size: 18px;
 }
 
@@ -1078,12 +1074,6 @@ h4 {
     font-style: italic;
 }
 
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
