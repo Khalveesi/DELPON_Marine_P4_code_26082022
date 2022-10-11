@@ -137,7 +137,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: #ffffff;
+  color: #141414;
 }
 
 .d-bloc .a-btn:hover,
@@ -747,10 +747,6 @@ h4 {
   margin-top: 24px;
 }
 
-.white {
-  color: #ffffff !important;
-}
-
 .portfolio-thumb {
   margin-bottom: 24px;
 }
@@ -792,7 +788,11 @@ h4 {
 
 .btn-atomic-tangerine {
   background: #f1824b;
-  color: #ffffff !important;
+  color: #141414 !important;
+}
+
+.tc-black {
+  color: #141414 !important;
 }
 
 .btn-atomic-tangerine:hover {
